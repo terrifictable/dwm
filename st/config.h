@@ -134,7 +134,8 @@ static const char *colorname[] = {
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
 	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#b2add6", /* 259 -> fg */
+	// "#b06583", /* 259 -> fg */
 };
 
 
