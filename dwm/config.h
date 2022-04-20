@@ -3,25 +3,26 @@
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappx     = 8;	/* gaps between windows */
+static const unsigned int gappx     = 12;	/* gaps between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=12", "DejaVu Sans Mono:size=12" };
+static const char *fonts[]          = { "monospace:size=12", "fontawesome:size=12", "DejaVu Sans Mono:size=12" };
 static const char dmenufont[]       = "monospace:size=12";
 static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
+static const char col_gray2[]       = "#262626";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#ff7b00";
+static const char col_cyan[]        = "#9fadd6";
+static const char col_cyan2[]	    = "#af5d81";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan2 },
 };
 
 /* tagging */
 // static const char *tags[] = { "\uf120", "\uf121", "3", "4", "5", "\uf269" };
-static const char *tags[] = { "1", "2", "3", "4", "5", "6" };
+static const char *tags[] = { "\uf26c", "\uf120", "\uf121", "\uf188", "\uf028", "\uf269" };
 
 
 static const Rule rules[] = {
